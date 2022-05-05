@@ -1,35 +1,48 @@
 {
-  "Post": {
-    "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
-    },
-    "title": {
-      "loremWords": {
-        "minLength": 5,
-        "maxLength": 20
-      }
-    },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
-    },
-    "tag": {
-      "string": [
-        "one",
-        "two",
-        "three"
-      ]
-    },
-    "isDraft": {
-      "boolean": {}
-    },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
-    }
-  }
-}
+          course_name: "Frozen Yogurt",
+          exam_name: "Frozen Yogurt",
+          start_time: "17:30:00",
+          end_time: "19:30:00",
+          number_of_times: 2,
+          status: "start",
+        },
+        {
+          course_name: "Yogurt",
+          exam_name: "Yogurt",
+          start_time: "17:30:00",
+          end_time: "19:30:00",
+          number_of_times: 1,
+          status: "start",
+        },
+        {
+          course_name: "Yogurt",
+          exam_name: "Frozen Yogurt",
+          start_time: "17:30:00",
+          end_time: "19:30:00",
+          number_of_times: null,
+          status: "start",
+        },
+        {
+          course_name: "Frozen Yogurt",
+          exam_name: "Yogurt",
+          start_time: "17:30:00",
+          end_time: "19:30:00",
+          number_of_times: 2,
+          status: "start",
+        },
+        {
+          course_name: "Cristiano Ronaldo",
+          exam_name: "Man United",
+          start_time: "17:30:00",
+          end_time: "19:30:00",
+          number_of_times: 2,
+          status: "start",
+        },
+        {
+          course_name: "Lionel Messi",
+          exam_name: "Paris Saint-Germain F.C.",
+          start_time: "17:30:00",
+          end_time: "19:30:00",
+          number_of_times: 2,
+          status: "start",
+        },
